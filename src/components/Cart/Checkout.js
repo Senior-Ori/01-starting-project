@@ -75,6 +75,7 @@ const Checkout = (props) => {
         <input type="text" id="street" ref={streetInputRef} />
         {!formInputsValidity.street && <p>Please enter a valid street!</p>}
       </div>
+
       <div className={postalCodeControlClasses}>
         <label htmlFor="postal">Postal Code</label>
         <input type="text" id="postal" ref={postalCodeInputRef} />
